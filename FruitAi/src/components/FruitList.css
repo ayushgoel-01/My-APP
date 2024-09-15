@@ -1,0 +1,19 @@
+.fruit-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .fruit-card {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+  
+  .fruit-card h3 {
+    margin: 0;
+    font-size: 18px;
+  }
